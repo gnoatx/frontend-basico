@@ -27,9 +27,200 @@
     text-transform: uppercase;
 }
 
+button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+    filter: brightness(90%);
+}
+
 #login-btn {
     background-color: #2cc76a;
     color: #fff;
 
     border-radius: 5px;
+    padding: 8px 12px;
 }
+
+#login-btn:hover {
+    filter: brightness(110%);
+}
+
+#login-btn:active {
+    filter: brightness(90%);
+}
+
+.banner {
+    color: #eee;
+    height: 350px;
+    
+    background-image: url("../img/mainbanner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner h1 {
+    color: inherit;
+    font-size: 42px;
+}
+
+.banner strong{
+    font-size: 20px;
+}
+
+.values ul {
+    text-align: center;
+    list-style: none;
+
+    margin: 80px 40px 120px;
+
+    display: flex;
+    gap: 40px;
+
+}
+
+.values h3 {
+    margin: 25px;
+}
+
+.values p {
+    font-size: 12px;
+}
+
+.fa-shield-alt, .fa-rocket, .fa-comments{
+    font-size: 40px;
+}
+
+.fa-shield-alt {
+    color: #2cc76a;
+}
+
+.fa-rocket {
+    color: #e54c58;
+}
+
+.fa-comments {
+    color: #e58a35;
+}
+
+.plans {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.plans-header {
+    margin-bottom: 100px;
+}
+
+.plans-header h2 {
+    margin-bottom: 20px;
+}
+
+.plans-header strong {
+    font-weight: lighter;
+}
+
+.plans ul {
+    list-style: none;
+}
+
+.card-list {
+    margin: auto 5%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-green header, .card-red header {
+    color: #fff;
+    background-color: #202a32;
+
+    height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 8px 8px 0 0;
+}
+
+.card-green h4, .card-red h4 {
+    color: #eee;
+    text-transform: uppercase;
+
+    margin-top: 50px;
+}
+
+.card-green, .card-red {
+    background-color: #e8e7ea;
+    margin: auto 20px;
+
+    flex: 1;
+    max-width: 250px;
+
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 12px;
+
+    position: absolute;
+    margin: -40px;
+
+    width: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-green .price {
+    background-color: #2cc76a;
+}
+
+.card-red .price {
+    background-color: #e54c58;
+}
+
+.benefits {
+    font-size: 12px;
+}
+
+.benefits li {
+    margin: 10px 0;
+}
+
+.card-green button, .card-red button {
+    color: #fff;
+    width: 100%;
+    height: 50px;
+
+    cursor: pointer;
+
+    border-radius: 0 0 8px 8px;
+}
+
+.card-green button {
+    background-color: #2cc76a;
+}
+
+.card-red button {
+    background-color: #e54c58;
+}
+
