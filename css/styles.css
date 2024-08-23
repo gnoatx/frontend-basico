@@ -273,3 +273,62 @@ button:active {
     border-radius: 5px;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 30px;
+
+    padding-bottom: 100px;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.footer form {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 15px;
+}
+
+.footer form div {
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+}
+
+.footer input {
+    font-size: small;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    padding: 10px 16px;
+}
+
+.footer textarea {
+    font-size: small;
+
+    width: 100%;
+    padding: 10px 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    resize: none;
+}
+
+.footer form button {
+    font-size: 14px;
+
+    background-color: var(--highlight-green);
+
+    padding: 12px 64px;
+
+    border-radius: 5px;
+}
